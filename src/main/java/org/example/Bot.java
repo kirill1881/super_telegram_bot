@@ -29,7 +29,7 @@ public class Bot extends TelegramLongPollingBot {
             list.add(new City("Минск", "53.893009","27.567444"));
             list.add(new City("Гродно", "53.669353", "23.813131"));
             list.add(new City("Москва", "53.669353", "23.813131"));
-
+            list.add(new City("Вильнюс", "54.68716", "25.27965"));
             String lat = "", lon = "";
             for (City c: list) {
                 if (c.getName().equals(update.getMessage().getText())) {
